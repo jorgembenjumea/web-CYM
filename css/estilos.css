@@ -1,12 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
 body {
     font-family: 'open sans';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -452,4 +452,60 @@ footer{
 .norma40594{
 display: flex;
 flex-direction: column;
+}
+
+table, th, td{
+    border: 0.5px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    padding: 0.5em
+    
+}
+
+ol {
+  list-style-type: lower-latin;
+  
+}
+
+.loStyleNumber{
+    list-style-type:decimal;
+}
+
+li{
+    text-align: justify; 
+}
+
+p{
+    text-align: justify; 
+}
+.ilustracion04 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socios{
+ width: 100px;
+  height: 100p
+}
+
+.ilustracion04 img{
+    height:80%;
+    width: 80%;
+ 
+}
+
+.tabGreen{
+    background: green;
+}
+
+.tabYellow{
+    background: yellow;
+}
+
+.tabRed{
+    background-color: red;
 }
