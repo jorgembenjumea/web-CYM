@@ -372,6 +372,34 @@ footer{
 }
 
 @media screen and (max-width:500px){
+
+.logCentrado{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+   display: none;
+
+
+    
+
+}
+
+.textos-header h1{
+    font-size: 11em;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 3em;
+    font-weight: 100;
+    color:#fff;
+}
+
+/* ++++++++++++++++++++++++++++++++ */
+
+
     nav{
         text-align: center;
         padding: 30px 0 0 0;
