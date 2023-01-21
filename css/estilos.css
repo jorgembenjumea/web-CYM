@@ -9,6 +9,10 @@ body {
     font-size: 14px;
 }
 
+.icon{
+    font-size:30px;
+    color: blue;
+}
 
 .contenedor {
     padding: 60px 0;
@@ -71,6 +75,7 @@ header .textos-header{
     position: relative;
     display: inline-block;
     text-align: center;
+    
 }
 .texto-encima{
     position: absolute;
@@ -82,13 +87,12 @@ header .textos-header{
     width: 100%;
     font-weight: bold;
     color: gray;
-    
-
 }
 
 .textos-header h1{
     font-size: 11em;
     color:#fff;
+    margin: 0;
 }
 
 .textos-header h2{
@@ -313,6 +317,9 @@ footer{
     header{
         background-position: center;
     }
+    .texto-encima{
+   display: none;
+}
 
     .contenedor-sobre-nosotros{
         flex-direction: column;
@@ -371,7 +378,7 @@ footer{
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
 
 .logCentrado{
     position: relative;
@@ -380,10 +387,6 @@ footer{
 }
 .texto-encima{
    display: none;
-
-
-    
-
 }
 
 .textos-header h1{
@@ -536,4 +539,19 @@ p{
 
 .tabRed{
     background-color: red;
+}
+.networks-fixed {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    background-color: #00BB2D;
+    border-radius: 10px 0 0 10px;
+}
+.networks-fixed a {
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 25px;
+    color: white;
 }
